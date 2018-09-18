@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- NOTE: При -->
 <html>
   <head>
     <meta charset="utf-8">
@@ -12,11 +14,15 @@
       height: 390px;
       display: block;
       overflow: hidden;
-      z-index: 999;
+      /* z-index: 999; */
+      max-width: 1200px;
+      min-width: 700px;
+
     }
 
     .monitor-background__image {
       float: left;
+      display: block;
 
 
     }
@@ -24,6 +30,8 @@
     .monitor-background__text {
       margin-top: 141px;
       margin-left: 595px;
+      overflow: hidden;
+      display: block;
     }
 
     .monitor-backgound__text-title {
@@ -79,7 +87,7 @@
       overflow: hidden;
       background-color: #ffffff;
 
-      z-index: 10;
+      /* z-index: 10; */
 
 
     }
@@ -107,12 +115,21 @@
 
     }
 
+    .wrapper_for_all {
+      max-width: 1200px;
+      margin: auto;
+      min-width 700px;
+    }
+
 
 
     </style>
 
   </head>
   <body>
+    <div class="wrapper_for_all">
+
+
     <div class="monitor-background">
       <div class="monitor-background__image">
         <img src="monitor3.png" alt="Изображение монитора" width=490px, height=389px;>
@@ -151,6 +168,7 @@
 
     </div>
       </div>
+  </div>
 
 
 
